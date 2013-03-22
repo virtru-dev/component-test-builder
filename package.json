@@ -18,7 +18,7 @@
   "author": "Reuven V. Gonzales <reuven@virtru.com>",
   "preferGlobal": true,
   "bin": {
-    "component-testbuild": "./bin/component-testbuild"
+    "component-test-build": "./bin/component-test-build"
   },
   "engines": {
     "node": ">= 0.8.22"
