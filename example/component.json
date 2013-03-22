@@ -1,0 +1,22 @@
+{
+  "name": "example-test-build",
+  "repo": "virtru/example-test-build",
+  "description": "An example to be test built",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "virtru/chai": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "another.js",
+    "index.js"
+  ],
+  "devScripts": [
+    "dev.js"
+  ],
+  "testScripts": [
+    "tests/test.js"
+  ]
+}

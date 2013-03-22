@@ -1,0 +1,26 @@
+{
+  "name": "component-test-builder",
+  "description": "Build testScripts and devScripts with component",
+  "version": "0.0.1",
+  "dependencies": {
+    "commander": "*",
+    "component-builder": "*",
+    "component": "*"
+  },
+  "devDependencies": {
+    "karma": "*"
+  },
+  "keywords": [
+    "component",
+    "karma",
+    "testing"
+  ],
+  "author": "Reuven V. Gonzales <reuven@virtru.com>",
+  "preferGlobal": true,
+  "bin": {
+    "component-testbuild": "./bin/component-testbuild"
+  },
+  "engines": {
+    "node": ">= 0.8.22"
+  }
+}
