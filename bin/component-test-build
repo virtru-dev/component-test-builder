@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+var path = require('path');
+var program = require('commander');
+var buildTests = require('../lib/builder').buildTests;
+
+program
+  .version('0.0.1')
+  .usage('[options]')
+  .usage('--single-run', 'Run once. Does not watch')
+  .parse(process.argv)
+
+var directory = program.args[0] || '.';
+var resolvedDir = path.resolve(directory);
+buildTests(resolvedDir);
