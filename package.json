@@ -1,12 +1,12 @@
 {
   "name": "component-test-builder",
   "description": "Build testScripts and devScripts with component",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "dependencies": {
-    "commander": "*",
-    "component-builder": "*",
-    "component": "*",
-    "underscore": "*"
+    "commander": "2.2.x",
+    "component-builder": "0.10.x",
+    "component": "0.19.x",
+    "underscore": "1.6.x"
   },
   "devDependencies": {
     "karma": "*"

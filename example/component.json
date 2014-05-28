@@ -7,7 +7,7 @@
   "dependencies": {
   },
   "development": {
-    "virtru/chai": "*"
+    "virtru-components/chai": "*"
   },
   "license": "MIT",
   "scripts": [
